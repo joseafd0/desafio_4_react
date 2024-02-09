@@ -1,0 +1,41 @@
+.botones-orden {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.comic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.comic-title {
+  font-size: 1.5rem;
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.comic-format {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.comic-image {
+  height: 200px;
+  width: 150px;
+  border-radius: 10px;
+}
